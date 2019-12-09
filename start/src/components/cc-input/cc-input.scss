@@ -1,0 +1,20 @@
+.textinput {
+    border-radius: 2px;
+    border-color: #777;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #000000;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    font-size: 14px;
+    box-sizing: inherit;
+    font-family: Karla;
+    box-shadow: none;
+    transition: border-color .2s, box-shadow .2s;
+
+    &:focus {
+        border-color: $primary;
+        outline: none;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 6px 6px;
+    }
+}

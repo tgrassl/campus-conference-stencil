@@ -1,0 +1,26 @@
+[
+    {
+        "value": 1,
+        "emoji": "dizzy"
+    },
+    {
+        "value": 2,
+        "emoji": "sad"
+    },
+    {
+        "value": 3,
+        "emoji": "meh"
+    },
+    {
+        "value": 4,
+        "emoji": "smile"
+    },
+    {
+        "value": 5,
+        "emoji": "happy"
+    },
+    {
+        "value": 6,
+        "emoji": "happy-heart-eyes"
+    }
+]

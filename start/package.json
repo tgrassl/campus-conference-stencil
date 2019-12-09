@@ -1,0 +1,33 @@
+{
+  "name": "stencil-campus-conference",
+  "version": "0.0.1",
+  "description": "Stencil Campus Conference",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/stencil-campus-conference/stencil-campus-conference.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.3.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/sass": "^1.1.1",
+    "boxicons": "^2.0.4",
+    "flexboxgrid-sass": "^8.0.5"
+  }
+}
