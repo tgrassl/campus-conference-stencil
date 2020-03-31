@@ -1,5 +1,7 @@
 # Campus Conference 2019 - Stencil.js
 
+![](https://i.ibb.co/MyzjTmV/rating.png)
+
 ### Project Structure
 - __final__
   - This Project contains the final implementation. At the end, your start folder should look like this.
